@@ -2,7 +2,7 @@
 
 ##  Overview
 
-This project implements a **Variational Quantum Eigensolver (VQE)** to approximate the ground state of the **Transverse-Field Ising Model (TFIM)** — a canonical model in quantum many-body physics.
+This project implements a **Variational Quantum Eigensolver (VQE)** to approximate the ground state of the **Transverse-Field Ising Model (TFIM)** - a canonical model in quantum many-body physics.
 
 The project combines:
 
@@ -22,14 +22,14 @@ H = -J Σ ZᵢZᵢ₊₁ - h Σ Xᵢ
 
 Where:
 
-* J — nearest-neighbour interaction strength
-* h — transverse magnetic field
-* Z, X — Pauli operators
+* J - nearest-neighbour interaction strength
+* h - transverse magnetic field
+* Z, X - Pauli operators
 
 ###  Physical Interpretation
 
-* The **interaction term (ZZ)** favours aligned spins → ordered phase
-* The **field term (X)** induces quantum fluctuations → disordered phase
+* The **interaction term (ZZ)** favours aligned spins -> ordered phase
+* The **field term (X)** induces quantum fluctuations -> disordered phase
 
 At the critical point:
 
@@ -44,7 +44,7 @@ the system undergoes a **quantum phase transition**, where the structure of the 
 VQE is a hybrid quantum-classical algorithm:
 
 1. Prepare a parameterized quantum state (ansatz)
-2. Measure the energy ⟨ψ(θ)|H|ψ(θ)⟩
+2. Measure the energy <ψ(θ)|H|ψ(θ)>
 3. Optimise parameters θ to minimise energy
 
 By the variational principle:
@@ -71,9 +71,9 @@ and allows approximation of correlated many-body quantum states.
 
 ##  Features
 
-* ✅ VQE implementation using PennyLane
-* ✅ Exact diagonalisation (NumPy/SciPy) for validation
-* ✅ Parameter sweep over h/J
+*  VQE implementation using PennyLane
+*  Exact diagonalisation (NumPy/SciPy) for validation
+*  Parameter sweep over h/J
 *  Computation of observables:
 
   * Ground state energy
@@ -112,7 +112,7 @@ The project reproduces key physical behaviour:
 ###  Disordered phase (h/J > 1)
 
 * Spins align with transverse field
-* High ⟨X⟩
+* High <X>
 * Reduced correlations
 
 ###  Critical point (h/J ≈ 1)
