@@ -125,13 +125,11 @@ VQE results show good agreement with exact diagonalisation for small system size
 
 ###  Interpreting results
 
-<img width="699" height="399" alt="image" src="https://github.com/user-attachments/assets/019c377e-1407-4dd8-bdf4-778a764f92e1" />
-
 ###  Ground state energy 
 
 VQE tracks the exact solution well for h/J < 1. The divergence after h/J ≈ 1 may be explained by the ansatz being not expressive enough to capture the ground state in the paramagnetic phase (h/J > 1), where the state structure changes significantly after the phase transition. The jumps suggest the optimizer is getting stuck in local minima.
 
-<img width="1199" height="399" alt="image" src="https://github.com/user-attachments/assets/77025654-9ced-4647-85ff-0ef230a836c9" />
+<img width="699" height="399" alt="image" src="https://github.com/user-attachments/assets/019c377e-1407-4dd8-bdf4-778a764f92e1" />
 
 ###  Transverse Magnetisation ⟨X⟩ (left)
 
@@ -140,6 +138,9 @@ This should smoothly increase from 0 to 1 as h/J goes from zero to infinity. The
 ###  Nearest-Neighbour ZZ Correlation ⟨Z_i Z_{i+1}⟩ (right)
 
 This should decay from 1 toward 0 as the field dominates and spins align with X rather than Z. Curve shows the correct qualitative decay, again with instability past h/J ≈ 2.
+
+<img width="1199" height="399" alt="image" src="https://github.com/user-attachments/assets/77025654-9ced-4647-85ff-0ef230a836c9" />
+
 
 ---
 
