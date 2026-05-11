@@ -133,11 +133,11 @@ VQE tracks the exact solution well for h/J < 1. The divergence after h/J ≈ 1 m
 
 ###  Transverse Magnetisation ⟨X⟩ (left)
 
-This should smoothly increase from 0 to 1 as h/J goes from zero to infinity. The dotted line at h/J = 1 marks the phase transition. Curve shows the right trend up to h/J = 2, then instability kicks in. The exact result should be a smooth S-curve - the jumps again point to optimizer/ansatz issues in the high-field regime.
+This should smoothly increase from 0 to 1 as h/J goes from zero to infinity. The dotted line at h/J = 1 marks the phase transition. Curve shows the right trend up to h/J = 1.2, then instability kicks in. The exact result should be a smooth S-curve - the jumps again point to optimizer/ansatz issues in the high-field regime.
 
 ###  Nearest-Neighbour ZZ Correlation ⟨Z_i Z_{i+1}⟩ (right)
 
-This should decay from 1 toward 0 as the field dominates and spins align with X rather than Z. Curve shows the correct qualitative decay, again with instability past h/J ≈ 2.
+This should decay from 1 toward 0 as the field dominates and spins align with X rather than Z. Curve shows the correct qualitative decay, again with instability past h/J ≈ 1.2.
 
 <img width="1199" height="399" alt="image" src="https://github.com/user-attachments/assets/77025654-9ced-4647-85ff-0ef230a836c9" />
 
