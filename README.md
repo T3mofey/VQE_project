@@ -186,7 +186,7 @@ python main.py --plot-only
 ##  Future Work
 
 * Implement periodic boundary conditions
-* Explore problem-inspired ansätze
+* Explore problem-inspired ansatz
 * Study scaling with system size and circuit depth
 * Analyse optimisation landscape and gradient behaviour
 * Compare optimisers and training strategies
